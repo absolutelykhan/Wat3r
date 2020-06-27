@@ -36,3 +36,9 @@
     transform: rotate(360deg);
   }
 }
+
+.medium-card {
+  margin-left: 10rem;
+  margin-right: 10rem;
+  padding: 0.4rem;
+}
