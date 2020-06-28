@@ -4,15 +4,15 @@ import "materialize-css";
 class Home extends Component {
   render() {
     return (
-      <div class="container">
-        <div class="row">
-          <div class="col9 s12">
-            <div class="card blue-grey darken-3 medium-card">
-              <div class="card-content justified white-text">
-                <span class="card-title center amber-text">
+      <div className="container">
+        <div className="row">
+          <div className="col9 s12">
+            <div className="card blue-grey darken-3 medium-card">
+              <div className="card-content justified white-text">
+                <span className="card-title cyan-text text-accent-2">
                   This will remind you to Drink Water
                 </span>
-                <div class="post">
+                <div className="post">
                   <br />
                   <p>
                     Research suggests you should drink 3 liters of water a day.
@@ -35,7 +35,7 @@ class Home extends Component {
                 </div>
               </div>
               <div
-                class="row"
+                className="row"
                 style={{
                   alignItems: "center",
                   justifyContent: "center",
@@ -43,7 +43,7 @@ class Home extends Component {
                   display: "flex",
                 }}
               >
-                <div class="col xs4 center-align ">
+                <div className="col xs4 center-align ">
                   <a
                     style={{ color: "orange", textTransform: "uppercase" }}
                     href="https://www.healthline.com/nutrition/3-liters-of-water#general-health"
@@ -52,7 +52,7 @@ class Home extends Component {
                     Click here for the article
                   </a>
                 </div>
-                <div class="col xs4 center-align">
+                <div className="col xs4 center-align">
                   <a
                     style={{ color: "orange", textTransform: "uppercase" }}
                     href="/info"
@@ -60,9 +60,9 @@ class Home extends Component {
                     Click here for the math
                   </a>
                 </div>
-                <div class="col xs4 center-align">
+                <div className="col xs4 center-align">
                   <a
-                    class="waves-effect waves-grey btn btn-small"
+                    className="waves-effect waves-grey btn btn-small"
                     href="/timer"
                   >
                     Start your Work Day!
