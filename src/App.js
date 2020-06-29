@@ -7,10 +7,12 @@ import Home from "./Components/Home";
 import Timer from "./Components/Timer";
 import Info from "./Components/Info";
 
+const history = require("history").createBrowserHistory();
+
 class App extends Component {
   render() {
     return (
-      <BrowserRouter>
+      <BrowserRouter history={history}>
         <div className="App">
           <Navbar />
           <Route exact path="/" component={Home} />
