@@ -8,7 +8,7 @@ const Info = () => {
         <h2 className="header blue-text">The Math Behind</h2>
         <div
           className="card medium horizontal blue-grey darken-3 medium-card"
-          style={{ height: "600px" }}
+          style={{ height: "605px" }}
         >
           <div className="card-image">
             <img src={Drink} alt="Wat3r Logo" />
