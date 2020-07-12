@@ -8,7 +8,7 @@ const Info = () => {
         <h2 className="header blue-text">The Math Behind</h2>
         <div
           className="card medium horizontal blue-grey darken-3 medium-card"
-          style={{ height: "300px" }}
+          style={{ height: "350px" }}
         >
           <div className="card-image">
             <img src={Drink} alt="Wat3r Logo" />
@@ -29,9 +29,12 @@ const Info = () => {
                 listening to your body and drinking when you feel thirsty is one
                 of the best ways to ensure that you’re staying hydrated. In
                 fact, most people can meet their daily needs by drinking water
-                when they’re thirsty (19). Notably, some individuals, such as
-                athletes and manual laborers, may need more than 3 liters (100
-                ounces) of water per day
+                when they’re thirsty.
+              </p>
+              <br />
+              <p>
+                Notably, some individuals, such as athletes and manual laborers,
+                may need more than 3 liters (100 ounces) of water per day
               </p>
               <br />
 
