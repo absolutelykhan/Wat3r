@@ -8,7 +8,7 @@ const Info = () => {
         <h2 className="header blue-text">The Math Behind</h2>
         <div
           className="card medium horizontal blue-grey darken-3 medium-card"
-          style={{ height: "605px" }}
+          style={{ height: "300px" }}
         >
           <div className="card-image">
             <img src={Drink} alt="Wat3r Logo" />
@@ -34,21 +34,7 @@ const Info = () => {
                 ounces) of water per day
               </p>
               <br />
-              <p>
-                Keep in mind that excessive water intake can be dangerous.
-                Drinking too much can disrupt your body’s electrolyte balance,
-                leading to hyponatremia, or low levels of sodium in your blood .
-                Symptoms of hyponatremia include weakness, confusion, nausea,
-                vomiting, and — in severe cases — even death. Although your
-                kidneys can excrete up to 20–28 liters (4.5–6 gallons) of water
-                per day, they can only process 800–1,000 ml (27–34 ounces) of
-                water per hour (23Trusted Source). For this reason, it’s
-                important to spread your water intake throughout the day rather
-                than drink it all in a single sitting. Additionally, be sure to
-                listen to your body and adjust your water intake accordingly if
-                you’re feeling unwell.
-              </p>
-              <br />
+
               <p>
                 You will be reminded every 20 minutes to drink water throughout
                 the day. Stay Hydrated!
